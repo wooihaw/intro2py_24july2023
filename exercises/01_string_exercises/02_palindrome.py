@@ -8,3 +8,6 @@
 # True
 # Enter a string: Python
 # False
+s = input("Enter a word: ").lower()
+
+print(s == s[::-1])
