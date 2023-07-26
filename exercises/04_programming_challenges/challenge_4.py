@@ -22,7 +22,8 @@ with open("data/Heathrow.txt", "r") as f:
         
     print(f"Lowest: {data[0]}, highest: {data[-1]}")
     print(f"Mean: {mean}, median: {median}")
-    
+
+# Using statistics module in standard library    
 import statistics as stat
 
 print(f"{stat.mean(data) = }") 
